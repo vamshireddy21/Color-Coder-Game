@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to Color Code Game</title>
+<style>
+body, html {background:#ECF1EF; text-align:center; padding:50px 0;}
+
+
+h1
+{
+font-color:#FF4500;
+}
+/* The CSS */
+select {
+    padding:2%;
+    margin: 5%;    
+    cursor:pointer;
+    font-family: Cursive;
+    font-size: 20px;
+    background-color: #7FFF00;
+}
+
+#labelLevel
+{
+font-size: 20px;
+font-weight: bold;
+font-color: #00CDCD;
+}
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px  #2980B9;
+	border-radius: 10%;
+}
+</style>
+</head>
+<body>
+
+<h1>Color Code Game</h1>
+<form action="colorcode.jsp" id="levelForm">
+
+<!-- <h4>Enter your name<input id="name" type="text" /></h4> -->
+ <span id="labelLevel">Select Level</span><select name="level" form="levelForm">
+  <option value="1">First</option>
+  <option value="2">Second</option>
+  <option value="3">Third</option>
+  <option value="4">Fourth</option>
+  <option value="5">Fifth</option>
+  <option value="6">Sixth</option>
+  <option value="7">Seventh</option>
+</select>
+
+<input type="submit" class="blue" value="Start Game"/>
+</form>
+
+
+</body>
+</html>
