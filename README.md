@@ -1,0 +1,2 @@
+# Color-Coder-Game
+This game consists of letters with different colors arranged randomly. Here, we ask for a precise color and letter, then, we click on the exact color and the statement immediately keeps changing. We may have one or many of the same color with either same letter or different letters. If in case we don’t click on the mentioned block, we lose a point because we have Time Limit mentioned.
